@@ -13,10 +13,16 @@
 		D95A656024B01889008EA954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95A655E24B01889008EA954 /* Main.storyboard */; };
 		D95A656224B0188B008EA954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95A656124B0188B008EA954 /* Assets.xcassets */; };
 		D95A656524B0188B008EA954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95A656324B0188B008EA954 /* LaunchScreen.storyboard */; };
+		D95A658224B142FA008EA954 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95A658124B142F9008EA954 /* DetailViewController.swift */; };
+		D95A658824B15853008EA954 /* Alice In Wonderland.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D95A658324B15853008EA954 /* Alice In Wonderland.JPG */; };
+		D95A658924B15853008EA954 /* Peter Pan.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D95A658424B15853008EA954 /* Peter Pan.JPG */; };
+		D95A658A24B15853008EA954 /* Moana.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D95A658524B15853008EA954 /* Moana.JPG */; };
+		D95A658B24B15853008EA954 /* Ratatouille.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D95A658624B15853008EA954 /* Ratatouille.JPG */; };
+		D95A658C24B15853008EA954 /* Finding Nemo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D95A658724B15853008EA954 /* Finding Nemo.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D95A655524B01889008EA954 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95A655524B01889008EA954 /* Disney's Two Cents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disney's Two Cents.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95A655824B01889008EA954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D95A655A24B01889008EA954 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D95A655C24B01889008EA954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,12 @@
 		D95A656124B0188B008EA954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D95A656424B0188B008EA954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D95A656624B0188B008EA954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95A658124B142F9008EA954 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D95A658324B15853008EA954 /* Alice In Wonderland.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alice In Wonderland.JPG"; sourceTree = "<group>"; };
+		D95A658424B15853008EA954 /* Peter Pan.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Peter Pan.JPG"; sourceTree = "<group>"; };
+		D95A658524B15853008EA954 /* Moana.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Moana.JPG; sourceTree = "<group>"; };
+		D95A658624B15853008EA954 /* Ratatouille.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ratatouille.JPG; sourceTree = "<group>"; };
+		D95A658724B15853008EA954 /* Finding Nemo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Finding Nemo.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +60,7 @@
 		D95A655624B01889008EA954 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D95A655524B01889008EA954 /* Project1.app */,
+				D95A655524B01889008EA954 /* Disney's Two Cents.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,12 +71,26 @@
 				D95A655824B01889008EA954 /* AppDelegate.swift */,
 				D95A655A24B01889008EA954 /* SceneDelegate.swift */,
 				D95A655C24B01889008EA954 /* ViewController.swift */,
+				D95A658124B142F9008EA954 /* DetailViewController.swift */,
 				D95A655E24B01889008EA954 /* Main.storyboard */,
 				D95A656124B0188B008EA954 /* Assets.xcassets */,
 				D95A656324B0188B008EA954 /* LaunchScreen.storyboard */,
 				D95A656624B0188B008EA954 /* Info.plist */,
+				D95A656C24B0189C008EA954 /* Content */,
 			);
 			path = Project1;
+			sourceTree = "<group>";
+		};
+		D95A656C24B0189C008EA954 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				D95A658324B15853008EA954 /* Alice In Wonderland.JPG */,
+				D95A658724B15853008EA954 /* Finding Nemo.JPG */,
+				D95A658524B15853008EA954 /* Moana.JPG */,
+				D95A658424B15853008EA954 /* Peter Pan.JPG */,
+				D95A658624B15853008EA954 /* Ratatouille.JPG */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +110,7 @@
 			);
 			name = Project1;
 			productName = Project1;
-			productReference = D95A655524B01889008EA954 /* Project1.app */;
+			productReference = D95A655524B01889008EA954 /* Disney's Two Cents.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,9 +151,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95A658A24B15853008EA954 /* Moana.JPG in Resources */,
+				D95A658B24B15853008EA954 /* Ratatouille.JPG in Resources */,
+				D95A658824B15853008EA954 /* Alice In Wonderland.JPG in Resources */,
 				D95A656524B0188B008EA954 /* LaunchScreen.storyboard in Resources */,
 				D95A656224B0188B008EA954 /* Assets.xcassets in Resources */,
+				D95A658C24B15853008EA954 /* Finding Nemo.JPG in Resources */,
 				D95A656024B01889008EA954 /* Main.storyboard in Resources */,
+				D95A658924B15853008EA954 /* Peter Pan.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +172,7 @@
 				D95A655D24B01889008EA954 /* ViewController.swift in Sources */,
 				D95A655924B01889008EA954 /* AppDelegate.swift in Sources */,
 				D95A655B24B01889008EA954 /* SceneDelegate.swift in Sources */,
+				D95A658224B142FA008EA954 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +323,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mahima.Project1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Disney's Two Cents";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mahima.Project1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Disney's Two Cents";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
